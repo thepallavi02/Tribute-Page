@@ -1,0 +1,169 @@
+body {
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    font-family: monospace;
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+  }
+  #title {
+    text-decoration: underline;
+    
+  }
+  #image {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .tags {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #img-caption {
+    font-family: monospace;
+    font-size: 17px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin: 20px;
+  }
+  .gon {
+    font-size: 20px;
+    color: #e52b50;
+  }
+  .killua {
+    font-size: 19px;
+    color: #a4c639;
+  }
+  .kurapika {
+    font-size: 20px;
+    color: #ffbf00;
+  }
+  .hisoka {
+    font-size: 20px;
+    color: #448aff;
+  }
+  .image {
+    width: 50px;
+    border-style: solid;
+  }
+  
+  .image1 {
+    width: 30px;
+    border-style: solid;
+  }
+  .image2 {
+    width: 30px;
+    border-style: solid;
+  }
+  .image3 {
+    width: 60px;
+    border-style: solid;
+  }
+  
+  .image:hover,
+  .image1:hover,
+  .image2:hover,
+  .image3:hover {
+    transform: scale(6.5);
+  }
+  
+  a {
+    color: crimson;
+    text-decoration: none;
+  }
+  #gon {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(to bottom, crimson 0%, hotpink 100%);
+  }
+  
+  .head1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text {
+    display: flex;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    justify-content: space-around;
+  }
+  .g-border {
+    border-left: solid;
+    margin-right: 20px;
+  }
+  .only-info {
+    padding-left: 20px;
+    margin-right: 70px;
+  }
+  
+  .video {
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+  #killua {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(to bottom, green 0%, #a4c639 100%);
+  }
+  
+  .only-info1 {
+    padding-left: 20px;
+    margin-right: 70px;
+    border: solid;
+  }
+  
+  .k-border {
+    margin-right: 20px;
+    border-left: solid;
+  }
+  
+  .video-1 {
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+  #kurapika {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(to bottom, #ffbf00 0%, #d0ff14 100%);
+  }
+  #hisoka {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(to bottom, cyan 0%, #fff600 100%);
+  }
+  .last {
+    font-family: Merriweather, serif;
+  }
+  button {
+    font-size: 15px;
+    color: green;
+    background-color: #fff9c4;
+  }
+  
+  button:hover {
+    animation-name: change;
+    animation-duration: 1ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes change {
+    100% {
+      background-color: orange;
+    }
+  }
+  
