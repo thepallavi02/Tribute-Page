@@ -1,7 +1,7 @@
 # Tribute-Page
 
 #### This is a Tribute Page For HunterXHunter Anime Series
-* It is on of my favourite anime Series.So here is a little contribution from my side.
+* It is one of my favourite anime Series. So here is a little contribution from my side.
 
 *It has Introduction of some Main Characters :supervillain: along with their videos :*
 - Gon Freecss
